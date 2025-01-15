@@ -14,7 +14,7 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=tokyo-night&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo"></img>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jibin7jose&show_icons=true&locale=en&layout=compact" alt="kimjayden" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jibin7jose&show_icons=true&locale=en&layout=compact" alt="kimjayden" /></p>
 
 
 
