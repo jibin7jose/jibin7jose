@@ -18,8 +18,6 @@
 
 
 
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jibin7jose&" alt="jibin7jose" /></p>
 ![snake gif](https://github.com/jibin7jose/jibin7jose/blob/output/github-contribution-grid-snake.svg)
 
 
