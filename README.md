@@ -32,7 +32,7 @@
 ---
 
 ### 📈 GitHub Stats
-p
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=tokyo-night&hide_border=true&area=true&custom_title=Total%20Contributions%20Graph" alt="GitHub Activity Graph"/>
 </p>
