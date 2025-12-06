@@ -10,7 +10,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Jibin+Jose;Computer+Science+Engineer;Full+Stack+Developer;React+%7C+NestJS+%7C+PostgreSQL;Building+Futuristic+Web+Apps" />
 </h1>
 
-# 🌌 **About Me**
+# 🌌 About Me
 
 > I am a passionate developer who merges creativity with code — building futuristic, scalable applications with clean UI, solid architecture, and high-performance backend systems.
 
@@ -30,7 +30,7 @@
 
 
 
-# 🌐 **Tech Stacks **  
+# 🌐 Tech Stacks 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-0ef?style=for-the-badge&logoColor=white&color=0ef&labelColor=0a0f1f" />
@@ -42,7 +42,7 @@
 
 
 
-# 🚀 **Activity & Stats Dashboard**
+# 🚀 Activity & Stats Dashboard
 
 ### 📊 Contribution Graph  
 <p align="center">
@@ -57,20 +57,18 @@
 
 
 
-# 🧩 **Languages Overview**
+# 🧩 Languages Overview
 <p align="center">
   <img width="48%" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
 </p>
 
 
 
-# 🐍 **Contribution Snake**
+# 🐍 Contribution Snake
 <p align="center">
   <img src="https://github.com/jibin7jose/jibin7jose/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
 </p>
 
 
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Thanks_For_Visiting-00eaff?style=for-the-badge" />
-</p>
+
