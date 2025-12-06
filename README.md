@@ -6,8 +6,9 @@
 </p>
 
 
-
----
+<h1 align="center" style="font-family: 'Segoe UI', sans-serif;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Jibin+Jose;Computer+Science+Engineer;Full+Stack+Developer;React+%7C+NestJS+%7C+PostgreSQL;Building+Futuristic+Web+Apps" />
+</h1>
 
 # 🌌 **About Me**
 
@@ -19,7 +20,7 @@
 - 🎮 Exploring **3D Web + Game Development**  
 - ⚡ Motto: *“Coding the future, one line at a time.”*
 
----
+
 
 # 🛠️ **Tech Arsenal (Premium Futuristic Layout)**  
 
@@ -27,7 +28,7 @@
   <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,react,nextjs,nodejs,nestjs,postgres,mysql,prisma,aws,postman,figma,unreal,unity,blender&theme=dark" />
 </p>
 
----
+
 
 # 🌐 **Tech Stacks (Glass Neon Style)**  
 
@@ -39,7 +40,7 @@
   <img src="https://img.shields.io/badge/API-Postman-FCA121?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
----
+
 
 # 🚀 **Activity & Stats Dashboard**
 
@@ -54,21 +55,21 @@
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
----
+
 
 # 🧩 **Languages Overview**
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jibin7jose&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
 </p>
 
----
+
 
 # 🐍 **Contribution Snake**
 <p align="center">
   <img src="https://github.com/jibin7jose/jibin7jose/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
 </p>
 
----
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Thanks_For_Visiting-00eaff?style=for-the-badge" />
