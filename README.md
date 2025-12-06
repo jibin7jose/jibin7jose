@@ -22,7 +22,7 @@
 
 
 
-# 🛠️ **Tech Arsenal (Premium Futuristic Layout)**  
+# 🛠️ **Tech Arsenal**  
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,react,nextjs,nodejs,nestjs,postgres,mysql,prisma,aws,postman,figma,unreal,unity,blender&theme=dark" />
@@ -30,7 +30,7 @@
 
 
 
-# 🌐 **Tech Stacks (Glass Neon Style)**  
+# 🌐 **Tech Stacks **  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-0ef?style=for-the-badge&logoColor=white&color=0ef&labelColor=0a0f1f" />
