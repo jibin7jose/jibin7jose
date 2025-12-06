@@ -1,74 +1,89 @@
+<!-- ⚡ PREMIUM FUTURISTIC README ⚡ -->
+
+<!-- TOP HEADER -->
 <p align="center">
-  <img src="header.svg" alt="Header Image" />
+  <img src="header.svg" width="100%" alt="Banner"/>
 </p>
 
-<h3 align="center">Computer Science Engineer</h3>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Coding" width="400" />
-</p>
-
----
-<h3 align="center">🛠️ Languages and Tools </h3>
-
-<p align="center">
-
-  <!-- Programming Languages -->
-  <a href="https://www.cprogramming.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40" alt="C"/></a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++"/></a>
-  <a href="https://www.java.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript"/></a>
-  <a href="https://www.python.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/></a>
-
-  <!-- Frontend -->
-  <a href="https://www.w3.org/html/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/></a>
-  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3"/></a>
-  <a href="https://reactjs.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="React"/></a>
-  <a href="https://nextjs.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" height="40" alt="Next.js"/></a>
-
-  <!-- Backend Frameworks -->
-  <a href="https://nodejs.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js"/></a>
-  <a href="https://nestjs.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="40" height="40" alt="NestJS"/></a>
-
-  <!-- Databases -->
-  <a href="https://www.postgresql.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL"/></a>
-  <a href="https://www.prisma.io/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" width="40" height="40" alt="Prisma"/></a>
-
-  <!-- Cloud -->
-  <a href="https://aws.amazon.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40" height="40"/></a>
-
-  <!-- Tools -->
-  <a href="https://www.postman.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Postman"/></a>
-  <a href="https://www.figma.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" alt="Figma"/></a>
-
-  <!-- Game Dev & 3D -->
-  <a href="https://www.unrealengine.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="40" height="40" alt="Unreal Engine"/></a>
-  <a href="https://unity.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40" height="40" alt="Unity"/></a>
-  <a href="https://www.blender.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="40" height="40" alt="Blender"/></a>
-
-</p>
-
-
+<h1 align="center" style="font-family: 'Segoe UI', sans-serif;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Jibin+Jose;Computer+Science+Engineer;Full+Stack+Developer;React+%7C+NestJS+%7C+PostgreSQL;Crafting+Modern+Digital+Experiences" />
+</h1>
 
 ---
 
-### 📈 GitHub Stats
+# 🌌 **About Me**
+
+> A developer who blends engineering with creativity — building scalable apps with modern UI, clean architecture, and high-performance backend systems.
+
+- 🔭 Currently building **React + NestJS + PostgreSQL** apps  
+- 🌱 Learning **Next.js, AWS, DevOps pipelines**  
+- 🎨 Focused on building clean UI/UX  
+- 🎮 Exploring **3D Web + Game Development**  
+- ⚡ Motto: *“Build something today that feels from the future.”*
+
+---
+
+# 🛠️ **Tech Arsenal (Custom Premium Layout)**  
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=tokyo-night&hide_border=true&area=true&custom_title=Total%20Contributions%20Graph" alt="GitHub Activity Graph"/>
-</p>
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" 
-    alt="Top Languages" 
-  />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,react,nextjs,nodejs,nestjs,postgres,mysql,prisma,aws,postman,figma,unreal,unity,blender&theme=dark" />
 </p>
 
 ---
 
+# 🌐 **Tech Stacks (Unique Glass UI)**  
+
 <p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-0ef?style=for-the-badge&logoColor=white&color=0ef&labelColor=0a0f1f" />
+
+  <img src="https://img.shields.io/badge/Backend-NestJS%20%7C%20Node.js-f0f?style=for-the-badge&logoColor=white&color=f0f&labelColor=0a0f1f" />
+
+  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MySQL-0ff?style=for-the-badge&logoColor=white&color=0ff&labelColor=0a0f1f" />
+
+  <img src="https://img.shields.io/badge/Cloud-AWS-ff0?style=for-the-badge&logoColor=white&color=ff0&labelColor=0a0f1f" />
+</p>
+
+---
+
+# 🚀 **Activity & Stats Dashboard**
+
+### 📊 Contribution Graph  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Universe" />
+</p>
+
+### 🔥 Streak & Stats  
+<p align="center">
+  <img width="48%" src="https://streak-stats.demolab.com?user=jibin7jose&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+# 🧩 **Languages Overview**
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jibin7jose&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+# 🐍 **Contribution Snake**
+<p align="center">
+  <img src="https://github.com/jibin7jose/jibin7jose/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
+</p>
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+  <a href="#"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="45"/></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="45"/></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="45"/></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Thanks_For_Visiting-00eaff?style=for-the-badge" />
 </p>
