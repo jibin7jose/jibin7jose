@@ -62,9 +62,11 @@
 
 # 🧩 **Languages Overview**
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jibin7jose&layout=compact&theme=tokyonight&hide_border=true" />
+  <img 
+    src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" 
+    alt="Top Languages" 
+  />
 </p>
-
 ---
 
 # 🐍 **Contribution Snake**
