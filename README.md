@@ -7,7 +7,7 @@
 
 
 <h1 align="center" style="font-family: 'Segoe UI', sans-serif;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Jibin+Jose;Computer+Science+Engineer;Full+Stack+Developer;React+%7C+NestJS+%7C+PostgreSQL;Building+Futuristic+Web+Apps" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Computer+Science+Engineer;Full+Stack+Developer;React+%7C+NestJS+%7C+PostgreSQL;Building+Futuristic+Web+Apps" />
 </h1>
 
 # 🌌 About Me
