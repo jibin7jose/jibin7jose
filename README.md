@@ -2,7 +2,7 @@
 
 <!-- TOP HEADER -->
 <p align="center">
-  <img src="assets/banner-animated.svg" width="100%" alt="Banner"/>
+  <img src="header.svg" width="100%" alt="Banner"/>
 </p>
 
 
@@ -70,21 +70,6 @@
 <p align="center">
   <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake"/>
 </p>
+
 
-# :sparkles: 3D Showcase
-<p align="center">
-  <img src="assets/profile-card-3d.svg" width="90%" alt="3D Profile Card"/>
-</p>
-<p align="center">
-  <img src="assets/stats-3d-frame.svg" width="90%" alt="3D Stats Frame"/>
-</p>
-<p align="center">
-  <img width="48%" src="https://streak-stats.demolab.com?user=jibin7jose&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-# :cityscape: 3D Contribution Graph
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jibin7jose/jibin7jose/profile-3d-contrib/profile-night-view.svg?v=3" alt="3d github city"/>
-</p>
 
