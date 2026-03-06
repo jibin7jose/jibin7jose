@@ -25,6 +25,7 @@ jobs:
         with:
           target_branch: output
           build_dir: .
+          commit_message: "chore: update space shooter"
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
