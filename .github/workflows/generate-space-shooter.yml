@@ -18,13 +18,13 @@ jobs:
         uses: czl9707/gh-space-shooter@main
         with:
           github_user_name: jibin7jose
-          outputs: github-contribution-grid-space-shooter.gif
+          outputs: dist/github-contribution-grid-space-shooter.gif
         
       - name: Commit and Push
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: .
+          build_dir: dist
           commit_message: "chore: update space shooter"
           keep_history: true
         env:
