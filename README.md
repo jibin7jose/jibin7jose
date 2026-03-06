@@ -73,12 +73,12 @@
 
 # :space_invader: Space Shooter Game
 <p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-space-shooter.gif?v=1" alt="space shooter"/>
+  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-space-shooter.gif?v=2" alt="space shooter"/>
 </p>
 
 # :cityscape: Contribution City (3D)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jibin7jose/jibin7jose/main/profile-3d-contrib/profile-night-view.svg?v=1" alt="3d github city"/>
+  <img src="https://raw.githubusercontent.com/jibin7jose/jibin7jose/profile-3d-contrib/profile-night-view.svg?v=2" alt="3d github city"/>
 </p>
 
 

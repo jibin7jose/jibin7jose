@@ -16,18 +16,17 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: main
-          fetch-depth: 0
-          persist-credentials: true
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
-          git add -A .
-          git commit -m "generated 3D contribution city" || true
-          git push origin HEAD:main
+      - name: Publish 3D City to Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: profile-3d-contrib
+          build_dir: profile-3d-contrib
+          commit_message: "chore: update 3d city"
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
