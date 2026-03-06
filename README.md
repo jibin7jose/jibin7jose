@@ -68,8 +68,19 @@
 
 # 🐍 Contribution Snake
 <p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
+  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg" alt="snake"/>
 </p>
+
+# ?? Space Shooter Game
+<p align="center">
+  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-space-shooter.gif" alt="space shooter"/>
+</p>
+
+# ??? Contribution City (3D)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jibin7jose/jibin7jose/main/profile-3d-contrib/profile-night-view.svg" alt="3d github city"/>
+</p>
+
 
 
 
