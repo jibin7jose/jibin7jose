@@ -1,4 +1,7 @@
 name: Generate 3D Contribution City
+permissions:
+  contents: write
+
 
 on:
   schedule:
@@ -22,3 +25,4 @@ jobs:
           git add -A .
           git commit -m "generated 3D contribution city" || true
           git push
+

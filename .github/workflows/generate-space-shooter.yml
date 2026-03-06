@@ -1,4 +1,7 @@
 name: Generate Space Shooter
+permissions:
+  contents: write
+
 
 on:
   schedule:
@@ -25,3 +28,4 @@ jobs:
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
