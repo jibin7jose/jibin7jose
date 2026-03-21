@@ -12,7 +12,7 @@
 
 # :milky_way: About Me
 
-> I am a passionate developer who merges creativity with code — building futuristic, scalable applications with clean UI, solid architecture, and high-performance backend systems.
+> I am a passionate developer who merges creativity with code â€” building futuristic, scalable applications with clean UI, solid architecture, and high-performance backend systems.
 
 - :mag_right: Currently developing **React + NestJS + PostgreSQL** applications  
 - :seedling: Exploring **Next.js, AWS, CI/CD pipelines**  
@@ -30,18 +30,15 @@
 </p>
 
 
-
-
 # :globe_with_meridians: Tech Stacks 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-0ef?style=for-the-badge&logoColor=white&color=0ef&labelColor=0a0f1f" />
   <img src="https://img.shields.io/badge/Backend-NestJS%20%7C%20Node.js-f0f?style=for-the-badge&logoColor=white&color=f0f&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MySQL-0ff?style=for-the-badge&logoColor=white&color=0ff&labelColor=0a0f1f" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MySQL%20%7C%20pgAdmin-0ff?style=for-the-badge&logoColor=white&color=0ff&labelColor=0a0f1f" />
   <img src="https://img.shields.io/badge/Cloud-AWS-ff0?style=for-the-badge&logoColor=white&color=ff0&labelColor=0a0f1f" />
   <img src="https://img.shields.io/badge/API-Postman-FCA121?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
-
 
 
 # :rocket: Activity & Stats Dashboard
@@ -70,6 +67,7 @@
 <p align="center">
   <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake"/>
 </p>
-
+
+
 
 
