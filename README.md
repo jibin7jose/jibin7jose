@@ -71,7 +71,7 @@
       <td width="50%">
         <h3 align="center">:calendar: 3D Contribution Map</h3>
         <p align="center">
-          <img src="https://github.com/jibin7jose/jibin7jose/raw/output/profile-3d-contrib/profile-south-season.svg" alt="3D Contribution Map" width="100%"/>
+          <img src="https://github.com/jibin7jose/jibin7jose/raw/profile-3d-contrib/profile-south-season.svg" alt="3D Contribution Map" width="100%"/>
         </p>
       </td>
     </tr>
@@ -80,7 +80,7 @@
 
 ### :jigsaw: Languages Overview
 <p align="center">
-  <img width="60%" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
 </p>
 
 ---
