@@ -23,7 +23,8 @@
 > I am a passionate developer who merges creativity with code — building futuristic, scalable applications with clean UI, solid architecture, and high-performance backend systems.
 
 - :mag_right: Currently developing **React + NestJS + PostgreSQL** applications  
-- :seedling: Exploring **Rust, Tauri, AWS, CI/CD pipelines**  
+- :crab: Primary Focus: **Rust, Tauri, WebAssembly**  
+- :seedling: Exploring **AWS, CI/CD pipelines**  
 - :art: Focused on **modern UI/UX design**  
 - :video_game: Exploring **3D Web + Game Development**  
 - :zap: Motto: *"Coding the future, one line at a time."*
