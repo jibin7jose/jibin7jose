@@ -1,92 +1,84 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#020617" />
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE" />
-      <stop offset="50%" stop-color="#818CF8" />
-      <stop offset="100%" stop-color="#F472B6" />
-    </linearGradient>
-    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feOffset dx="0" dy="2" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.05" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 
   <style>
     @keyframes moveX { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
-    @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    @keyframes pulse { 0%, 100% { opacity: 0.2; } 50% { opacity: 1; } }
-    @keyframes scan { 0% { y: -300; } 100% { y: 300; } }
-    @keyframes typing { from { width: 0; } to { width: 100%; } }
-    .title { font: 900 82px 'Inter', 'Segoe UI', system-ui, sans-serif; fill: url(#textGrad); filter: url(#neon); }
-    .subtitle { font: 300 24px 'Fira Code', 'Cascadia Code', monospace; fill: #64748B; letter-spacing: 0.6em; text-transform: uppercase; }
-    .tech-pill { font: 600 12px 'Inter', sans-serif; fill: #F472B6; letter-spacing: 3px; text-transform: uppercase; }
-    .hud-text { font: 10px 'Fira Code', monospace; fill: #1E293B; }
-    .connecting-line { stroke: #22D3EE; stroke-width: 0.4; opacity: 0.2; stroke-dasharray: 4 8; animation: moveX 10s linear infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.6; } }
+    .title { font: 900 82px 'Inter', sans-serif; fill: #1E293B; }
+    .subtitle { font: 300 24px 'Fira Code', monospace; fill: #64748B; letter-spacing: 0.6em; text-transform: uppercase; }
+    .tech-string { font: 500 12px 'Fira Code', monospace; fill: #818CF8; letter-spacing: 3px; }
+    .hud-label { font: bold 10px sans-serif; fill: #94A3B8; letter-spacing: 1px; }
+    .grid-dot { fill: #F1F5F9; }
+    .accent-line { stroke: #22D3EE; stroke-width: 1; opacity: 0.2; }
   </style>
 
-  <!-- Dark Background -->
-  <rect width="1200" height="300" rx="30" fill="url(#primaryGrad)"/>
+  <!-- Clean White Background -->
+  <rect width="1200" height="300" rx="30" fill="#ffffff" stroke="#F1F5F9" stroke-width="1" />
   
-  <!-- Interactive Matrix Grid -->
-  <pattern id="matrix" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-    <circle cx="20" cy="20" r="0.5" fill="#1E293B" />
+  <!-- Subtle Grey Grid -->
+  <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="20" cy="20" r="1" class="grid-dot" />
   </pattern>
-  <rect width="1200" height="300" rx="30" fill="url(#matrix)" />
+  <rect width="1200" height="300" rx="30" fill="url(#grid)" />
 
-  <!-- Animated Scanning HUD -->
-  <path d="M 0 100 H 1200" stroke="#22D3EE" stroke-width="0.5" opacity="0.1">
-    <animate attributeName="d" values="M 0 50 H 1200; M 0 250 H 1200; M 0 50 H 1200" dur="8s" repeatCount="indefinite" />
-  </path>
+  <!-- Animated Scanner (White Version) -->
+  <rect x="0" y="0" width="2" height="300" fill="#22D3EE" opacity="0.2">
+    <animateTransform attributeName="transform" type="translate" from="-10 0" to="1210 0" dur="15s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Multi-Layered Borders -->
+  <rect x="40" y="40" width="1120" height="220" rx="10" stroke="#F8FAFC" stroke-width="2" />
   
-  <!-- Connecting Tech Nodes -->
-  <line x1="400" y1="210" x2="800" y2="210" class="connecting-line" />
-  <circle cx="400" cy="210" r="3" fill="#22D3EE" opacity="0.3" />
-  <circle cx="800" cy="210" r="3" fill="#818CF8" opacity="0.3" />
-
-  <!-- Corner HUD Elements -->
+  <!-- Corner Technical Markers -->
   <g transform="translate(60, 60)">
-    <path d="M 0 20 L 0 0 L 20 0" stroke="#F472B6" stroke-width="2" />
-    <text x="5" y="15" class="hud-text">INIT::NEURAL_ENGINE</text>
-    <rect width="15" height="2" x="5" y="20" fill="#F472B6">
-      <animate attributeName="width" values="0;15;0" dur="2s" repeatCount="indefinite" />
-    </rect>
+    <path d="M 0 15 V 0 H 15" stroke="#1E293B" stroke-width="2" />
+    <text x="20" y="10" class="hud-label">CORE::SYS_UP</text>
+    <circle r="3" cx="5" cy="5" fill="#22D3EE" class="pulse" style="animation: pulse 2s infinite;" />
   </g>
   <g transform="translate(1140, 60)" text-anchor="end">
-    <path d="M 0 20 L 0 0 L -20 0" stroke="#22D3EE" stroke-width="2" />
-    <text x="-5" y="15" class="hud-text">STATUS::SYS_STABLE</text>
-    <circle r="4" cx="-5" cy="20" fill="#22D3EE" style="animation: pulse 1s infinite;" />
+    <path d="M 0 15 V 0 H -15" stroke="#1E293B" stroke-width="2" />
+    <text x="-20" y="10" class="hud-label">V.ARCHITECTURE.01</text>
   </g>
 
-  <!-- Large Central Content -->
-  <g transform="translate(600, 150)">
-    <text text-anchor="middle" y="-25" class="title">JIBIN JOSE</text>
+  <!-- Central Professional Layout -->
+  <g transform="translate(600, 150)" filter="url(#shadow)">
+    <text text-anchor="middle" y="-20" class="title">JIBIN JOSE</text>
     <text text-anchor="middle" y="30" class="subtitle">Software Architect &amp; Game Dev</text>
-    <text text-anchor="middle" y="70" class="tech-pill">HIGH-PERFORMANCE ARCHITECTURE</text>
-    
-    <!-- Expanded Tech String HUD style -->
-    <text text-anchor="middle" y="105" fill="#334155" font-family="'Fira Code', monospace" font-size="12" letter-spacing="4px">
-      C++ | RUST | NESTJS | CLOUD | UNREAL | TAURI | NEXT.JS | REACT | DOCKER | K8S
+    <text text-anchor="middle" y="75" class="tech-string">
+      C++ • RUST • NESTJS • POSTGRES • UNREAL • NEXT.JS • TAURI • AWS • DOCKER
     </text>
   </g>
 
-  <!-- Bottom Interactive Accents -->
-  <g transform="translate(40, 260)">
-    <path d="M 0 -20 V 0 H 20" stroke="#22D3EE" stroke-width="2" />
-    <text x="5" y="-10" class="hud-text">CPU_LOAD: 12%</text>
+  <!-- Bottom Data Bars -->
+  <g transform="translate(60, 240)">
+    <rect width="100" height="4" fill="#F1F5F9" rx="2" />
+    <rect width="65" height="4" fill="#22D3EE" rx="2">
+      <animate attributeName="width" values="0;65;40;65" dur="10s" repeatCount="indefinite" />
+    </rect>
+    <text x="0" y="20" class="hud-label" font-size="8">L-PROC::88%</text>
   </g>
-  <g transform="translate(1160, 260)" text-anchor="end">
-    <path d="M 0 -20 V 0 H -20" stroke="#818CF8" stroke-width="2" />
-    <text x="-5" y="-10" class="hud-text">ARCH_TYPE: x64_NEURAL</text>
+  <g transform="translate(1140, 240)" text-anchor="end">
+    <rect x="-100" width="100" height="4" fill="#F1F5F9" rx="2" />
+    <rect x="-80" width="80" height="4" fill="#818CF8" rx="2">
+      <animate attributeName="width" values="0;80;90;80" dur="12s" repeatCount="indefinite" />
+    </rect>
+    <text x="0" y="20" class="hud-label" font-size="8">R-XCODE::OPTIMIZED</text>
   </g>
 
-  <!-- Central Pulse Indicator -->
-  <circle cx="600" cy="240" r="2" fill="#22D3EE">
-    <animate attributeName="r" values="2;5;2" dur="1s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
-  </circle>
+  <!-- Connecting Visual Accents -->
+  <circle cx="600" cy="210" r="2" fill="#E2E8F0" />
+  <path d="M 500 210 H 700" stroke="#F1F5F9" stroke-width="0.5" />
 
 </svg>
