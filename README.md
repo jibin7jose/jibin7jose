@@ -2,7 +2,7 @@
 
 <!-- TOP HEADER -->
 <p align="center">
-  <img src="header.svg?v=9" width="100%" alt="Banner"/>
+  <img src="header.svg?v=11" width="100%" alt="Banner"/>
 </p>
 
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
 # :milky_way: About Me
@@ -32,7 +32,7 @@
 - :zap: Motto: *"Coding the future, one line at a time."*
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
 # :hammer_and_wrench: Tech Arsenal
@@ -42,20 +42,28 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
-# :globe_with_meridians: Tech Stacks 
+# :video_game: Game Engine Profile
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js%20%7C%20Tauri-0ef?style=for-the-badge&logo=react&logoColor=white&color=0ef&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Backend-NestJS%20%7C%20Node.js%20%7C%20Rust-f0f?style=for-the-badge&logo=nestjs&logoColor=white&color=f0f&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MySQL%20%7C%20Redis-0ff?style=for-the-badge&logo=postgresql&logoColor=white&color=0ff&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Cloud-AWS-ff0?style=for-the-badge&logo=amazon-aws&logoColor=white&color=ff0&labelColor=0a0f1f" />
+  <img src="engine-stats.svg?v=11" width="70%" alt="Game Engine Stats"/>
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
+</p>
+
+# :hourglass_flowing_sand: Coding Activity & Productivity 
+
+### :clock1: Weekly Coding Sessions (WakaTime)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=jibin7jose&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats" />
+</p>
+
+<p align="center">
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
 # :rocket: Activity & Stats Dashboard
@@ -77,12 +85,12 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
 <!-- FEATURED PROJECTS SECTION -->
 <p align="center">
-  <img src="projects-header.svg?v=9" width="100%" alt="Featured Projects Header"/>
+  <img src="projects-header.svg?v=11" width="100%" alt="Featured Projects Header"/>
 </p>
 
 <div align="center">
@@ -107,7 +115,7 @@
 </div>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
 # :snake: Contribution Snake
@@ -116,12 +124,12 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>
 
 <!-- CONNECT WITH ME SECTION -->
 <p align="center">
-  <img src="connect-header.svg?v=9" width="100%" alt="Connect Header"/>
+  <img src="connect-header.svg?v=11" width="100%" alt="Connect Header"/>
 </p>
 
 <p align="center">
@@ -137,5 +145,5 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=9" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=11" width="100%" alt="Divider"/>
 </p>

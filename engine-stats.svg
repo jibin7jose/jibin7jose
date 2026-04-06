@@ -1,0 +1,36 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes grow { from { width: 0; } }
+    .label { font: bold 12px 'Inter', sans-serif; fill: #1E293B; letter-spacing: 1px; text-transform: uppercase; }
+    .bg-bar { fill: #F1F5F9; rx: 4; }
+    .fill-bar { rx: 4; animation: grow 2s ease-out forwards; }
+    .unreal { fill: #22D3EE; }
+    .unity { fill: #818CF8; }
+    .blender { fill: #F472B6; }
+    .val { font: 10px monospace; fill: #94A3B8; }
+    
+    @media (prefers-color-scheme: dark) {
+      .label { fill: #ffffff; }
+      .bg-bar { fill: #1E293B; }
+    }
+  </style>
+
+  <!-- Unreal Engine -->
+  <text x="0" y="20" class="label">Unreal Engine 5</text>
+  <rect x="0" y="30" width="550" height="12" class="bg-bar" />
+  <rect x="0" y="30" width="495" height="12" class="fill-bar unreal" />
+  <text x="500" y="40" class="val">90%</text>
+
+  <!-- Unity -->
+  <text x="0" y="75" class="label">Unity 3D</text>
+  <rect x="0" y="85" width="550" height="12" class="bg-bar" />
+  <rect x="0" y="85" width="412" height="12" class="fill-bar unity" />
+  <text x="420" y="95" class="val">75%</text>
+
+  <!-- Blender -->
+  <text x="0" y="130" class="label">Blender (Modelling)</text>
+  <rect x="0" y="140" width="550" height="12" class="bg-bar" />
+  <rect x="0" y="140" width="357" height="12" class="fill-bar blender" />
+  <text x="365" y="150" class="val">65%</text>
+
+</svg>

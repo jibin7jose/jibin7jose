@@ -1,13 +1,13 @@
 <svg width="800" height="60" viewBox="0 0 800 60" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .text { font: bold 28px 'Inter', sans-serif; fill: #1E293B; text-transform: uppercase; letter-spacing: 4px; }
+    .text { font: bold 28px 'Inter', sans-serif; fill: #000000; text-transform: uppercase; letter-spacing: 4px; }
     
     @media (prefers-color-scheme: dark) {
       .text { fill: #ffffff; }
     }
   </style>
 
-  <!-- Title (Clean with no decorative dots) -->
+  <!-- Title (Pure Black for Light Mode) -->
   <text x="50%" y="40" text-anchor="middle" class="text">Connect With Me</text>
   
 </svg>
