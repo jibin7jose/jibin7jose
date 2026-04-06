@@ -1,9 +1,13 @@
 <svg width="800" height="60" viewBox="0 0 800 60" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes pulse { 0%, 100% { opacity: 0.1; } 50% { opacity: 0.8; } }
-    .text { font: bold 28px 'Inter', sans-serif; fill: #fff; text-transform: uppercase; letter-spacing: 4px; }
+    .text { font: bold 28px 'Inter', sans-serif; fill: #1E293B; text-transform: uppercase; letter-spacing: 4px; }
     .dot { fill: #F0F; opacity: 1; }
     .glow { fill: #F0F; filter: blur(5px); animation: pulse 2s ease-in-out infinite; }
+    
+    @media (prefers-color-scheme: dark) {
+      .text { fill: #ffffff; }
+    }
   </style>
 
   <!-- Title -->

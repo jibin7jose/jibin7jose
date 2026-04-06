@@ -10,10 +10,15 @@
   <style>
     @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
     .neon-pulse { stroke: #22D3EE; stroke-width: 0.5; animation: slide 4s linear infinite; }
+    .base-line { stroke: #e2e8f0; stroke-width: 1; stroke-dasharray: 2 4; }
+    
+    @media (prefers-color-scheme: dark) {
+      .base-line { stroke: #1E293B; }
+    }
   </style>
 
   <!-- Base Line -->
-  <path d="M0 20H800" stroke="#1E293B" stroke-width="1" stroke-dasharray="2 4" />
+  <path d="M0 20H800" class="base-line" />
   
   <!-- Glowing Center -->
   <path d="M300 20H500" stroke="url(#grad)" stroke-width="2" />
@@ -24,7 +29,5 @@
 
   <!-- Center Decorative Points -->
   <circle cx="400" cy="20" r="3" fill="#22D3EE" />
-  <circle cx="410" cy="20" r="1.5" fill="#1E293B" />
-  <circle cx="390" cy="20" r="1.5" fill="#1E293B" />
 
 </svg>
