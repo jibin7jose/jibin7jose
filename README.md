@@ -34,7 +34,7 @@
 # :hammer_and_wrench: Tech Arsenal
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,rust,react,nextjs,vite,nodejs,nestjs,postgres,mysql,mongodb,git,prisma,aws,postman,figma,arduino,unreal,unity,blender,php,laravel,tailwind,npm,tauri&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,rust,react,nextjs,vite,nodejs,nestjs,postgres,mysql,mongodb,git,prisma,aws,vercel,postman,figma,arduino,unreal,unity,blender,php,laravel,tailwind,npm,tauri&theme=dark" />
 </p>
 
 ---
@@ -83,7 +83,7 @@
   <a href="https://github.com/jibin7jose">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/jibin7jose">
+  <a href="https://linkedin.com/in/jibin--jose">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:jibin7jose@gmail.com">
@@ -97,6 +97,3 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Last%20Updated-2026--04--06-blueviolet?style=flat-square" />
-</p>
