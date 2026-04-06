@@ -2,7 +2,7 @@
 
 <!-- TOP HEADER -->
 <p align="center">
-  <img src="header.svg?v=2" width="100%" alt="Banner"/>
+  <img src="header.svg?v=3" width="100%" alt="Banner"/>
 </p>
 
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
 # :milky_way: About Me
@@ -32,7 +32,7 @@
 - :zap: Motto: *"Coding the future, one line at a time."*
 
 <p align="center">
-  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
 # :hammer_and_wrench: Tech Arsenal
@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
 # :globe_with_meridians: Tech Stacks 
@@ -55,7 +55,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
 # :rocket: Activity & Stats Dashboard
@@ -77,7 +77,37 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
+</p>
+
+<!-- FEATURED PROJECTS SECTION -->
+<p align="center">
+  <img src="projects-header.svg?v=3" width="100%" alt="Featured Projects Header"/>
+</p>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%">
+        <h3 align="center">🚀 Oasis Shell</h3>
+        <p align="center">AI-native, context-aware operating layer built with Rust and Tauri.</p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Stack-Rust%20%7C%20Tauri-blue?style=flat-square" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">⚡ Venture Synthesis</h3>
+        <p align="center">Complex financial analyzer with React and NestJS backend.</p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Stack-React%20%7C%20NestJS-magenta?style=flat-square" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
 # :snake: Contribution Snake
@@ -86,10 +116,13 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
-# :mailbox_with_mail: Connect with Me
+<!-- CONNECT WITH ME SECTION -->
+<p align="center">
+  <img src="connect-header.svg?v=3" width="100%" alt="Connect Header"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/jibin7jose">
@@ -104,7 +137,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=3" width="100%" alt="Divider"/>
 </p>
 
 <p align="center">

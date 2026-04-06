@@ -1,0 +1,16 @@
+<svg width="800" height="60" viewBox="0 0 800 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+    .text { font: bold 28px 'Inter', sans-serif; fill: #fff; text-transform: uppercase; letter-spacing: 4px; }
+    .line { stroke: #22D3EE; stroke-width: 1; opacity: 0.3; }
+    .anim-line { stroke: #818CF8; stroke-width: 2; animation: slide 3s linear infinite; }
+  </style>
+
+  <!-- Title -->
+  <text x="50%" y="40" text-anchor="middle" class="text">Featured Projects</text>
+  
+  <!-- Underline -->
+  <path d="M250 50H550" class="line" />
+  <path d="M350 50H450" class="anim-line" />
+
+</svg>
