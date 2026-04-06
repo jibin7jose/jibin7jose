@@ -57,30 +57,15 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Universe" />
 </p>
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%">
-        <h3 align="center">:fire: Streak & Stats</h3>
-        <p align="center">
-          <img width="100%" src="https://streak-stats.demolab.com?user=jibin7jose&theme=tokyonight&hide_border=true" />
-          <br/>
-          <img width="100%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
-        </p>
-      </td>
-      <td width="50%">
-        <h3 align="center">:calendar: 3D Contribution Map</h3>
-        <p align="center">
-          <img src="https://github.com/jibin7jose/jibin7jose/raw/profile-3d-contrib/profile-south-season.svg" alt="3D Contribution Map" width="100%"/>
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
+### :fire: Streak & Stats  
+<p align="center">
+  <img width="48%" src="https://streak-stats.demolab.com?user=jibin7jose&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
 
 ### :jigsaw: Languages Overview
 <p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
 </p>
 
 ---
