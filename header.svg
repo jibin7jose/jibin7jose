@@ -7,60 +7,64 @@
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22D3EE" />
       <stop offset="50%" stop-color="#818CF8" />
-      <stop offset="100%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#F472B6" />
     </linearGradient>
     <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feGaussianBlur stdDeviation="10" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
   <style>
     @keyframes moveX { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
-    @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.8; } }
-    .title { font: 900 86px 'Inter', system-ui, sans-serif; fill: url(#textGrad); }
-    .subtitle { font: 300 24px 'Fira Code', monospace; fill: #64748B; letter-spacing: 0.5em; text-transform: uppercase; }
-    .border-anim { stroke: #22D3EE; stroke-width: 1; stroke-dasharray: 200 800; animation: moveX 8s linear infinite; }
+    @keyframes fadeOut { 0%, 100% { opacity: 0.2; } 50% { opacity: 0.8; } }
+    .title { font: 900 92px 'Inter', 'Segoe UI', system-ui, sans-serif; fill: url(#textGrad); filter: url(#neon); }
+    .subtitle { font: 300 22px 'Fira Code', 'Cascadia Code', monospace; fill: #94A3B8; letter-spacing: 0.4em; text-transform: uppercase; }
+    .tech-string { font: 500 14px 'Fira Code', monospace; fill: #22D3EE; letter-spacing: 0.2em; opacity: 0.7; }
+    .grid-line { stroke: #1E293B; stroke-width: 0.5; }
+    .pulse-dot { fill: #22D3EE; animation: fadeOut 3s ease-in-out infinite; }
   </style>
 
   <!-- Dark Background -->
-  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#bgGrad)"/>
   
-  <!-- Subtle Grid -->
-  <pattern id="grid" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
-    <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#1E293B" stroke-width="0.5"/>
+  <!-- Subtle Coding Grid -->
+  <pattern id="codingGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" class="grid-line" />
+    <circle cx="0" cy="0" r="1.5" fill="#1E293B" />
   </pattern>
-  <rect width="1200" height="300" fill="url(#grid)" />
+  <rect width="1200" height="300" rx="20" fill="url(#codingGrid)" />
 
-  <!-- Animated Neon Borders -->
-  <rect x="2" y="2" width="1196" height="296" rx="10" stroke="#1E293B" stroke-width="2" />
-  <rect x="2" y="2" width="1196" height="296" rx="10" class="border-anim" filter="url(#neon)"/>
-
-  <!-- Left Design Elements -->
-  <g transform="translate(150, 150)">
-    <circle r="60" stroke="#1E293B" stroke-width="1" />
-    <circle r="40" stroke="#22D3EE" stroke-width="1" stroke-dasharray="10 20">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite" />
-    </circle>
-  </g>
-
-  <!-- Right Design Elements -->
-  <g transform="translate(1050, 150)">
-    <rect x="-40" y="-40" width="80" height="80" stroke="#1E293B" stroke-width="1" />
-    <rect x="-30" y="-30" width="60" height="60" stroke="#818CF8" stroke-width="1" stroke-dasharray="5 15">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite" />
-    </rect>
-  </g>
-
-  <!-- Center Content -->
-  <text x="50%" y="130" text-anchor="middle" class="title">JIBIN JOSE</text>
-  <text x="50%" y="175" text-anchor="middle" class="subtitle">Software Engineer &amp; Game Dev</text>
-  <text x="50%" y="210" text-anchor="middle" fill="#94A3B8" font-size="16" letter-spacing="2px">C++ | RUST | TAURI | UNREAL ENGINE</text>
-
-  <!-- Scanning Line -->
-  <rect x="0" y="0" width="1200" height="1" fill="#22D3EE" opacity="0.1">
-    <animate attributeName="y" values="0;300;0" dur="6s" repeatCount="indefinite" />
+  <!-- Animated Scanner -->
+  <rect x="0" y="0" width="2" height="300" fill="#22D3EE" opacity="0.1">
+    <animateTransform attributeName="transform" type="translate" from="-10 0" to="1210 0" dur="10s" repeatCount="indefinite" />
   </rect>
+
+  <!-- Side Tech HUDs -->
+  <g transform="translate(80, 150)">
+    <circle r="45" stroke="#1E293B" stroke-width="1" />
+    <path d="M-30 0 H30 M0 -30 V30" stroke="#1E293B" />
+    <circle r="4" class="pulse-dot" />
+  </g>
+  <g transform="translate(1120, 150)">
+    <rect x="-35" y="-35" width="70" height="70" stroke="#1E293B" stroke-width="1" />
+    <path d="M-25 -25 L25 25 M-25 25 L25 -25" stroke="#1E293B" />
+    <circle r="4" class="pulse-dot" style="animation-delay: 1.5s;" />
+  </g>
+
+  <!-- Main Content Layer -->
+  <g transform="translate(600, 150)">
+    <text text-anchor="middle" y="-20" class="title">JIBIN JOSE</text>
+    <text text-anchor="middle" y="35" class="subtitle">Software Architect &amp; Game Dev</text>
+    <text text-anchor="middle" y="80" class="tech-string">
+      C++ • RUST • NESTJS • POSTGRES • NEXT.JS • REACT • TAURI • UNREAL • AWS • DOCKER
+    </text>
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M40 80V40H80" stroke="#22D3EE" stroke-width="3" opacity="0.5" />
+  <path d="M1120 40H1160V80" stroke="#818CF8" stroke-width="3" opacity="0.5" />
+  <path d="M40 220V260H80" stroke="#818CF8" stroke-width="3" opacity="0.5" />
+  <path d="M1120 260H1160V220" stroke="#F472B6" stroke-width="3" opacity="0.5" />
 
 </svg>
