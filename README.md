@@ -2,7 +2,7 @@
 
 <!-- TOP HEADER -->
 <p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/raw/main/header.svg" width="100%" alt="Banner"/>
+  <img src="header.svg" width="100%" alt="Banner"/>
 </p>
 
 

@@ -1,0 +1,39 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes move {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 60; }
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      50% { opacity: 1; }
+      100% { opacity: 0.3; }
+    }
+    .text-title { font: bold 54px 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #000; }
+    .text-sub { font: 20px 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #555; letter-spacing: 5px; text-transform: uppercase; }
+    .dot-line { stroke: #000; stroke-width: 2; stroke-dasharray: 10 20; animation: move 2s linear indefinite; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#ffffff"/>
+
+  <!-- Animated Dotted Lines -->
+  <path d="M0 50H1200" class="dot-line">
+    <animate attributeName="stroke-dashoffset" from="0" to="30" dur="2s" repeatCount="indefinite" />
+  </path>
+  <path d="M0 250H1200" class="dot-line">
+    <animate attributeName="stroke-dashoffset" from="30" to="0" dur="2s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Central Content -->
+  <text x="50%" y="145" text-anchor="middle" class="text-title">JIBIN JOSE</text>
+  <text x="50%" y="185" text-anchor="middle" class="text-sub">Futuristic Software Engineer</text>
+
+  <!-- Tech Dots -->
+  <circle cx="100" cy="150" r="4" fill="#000">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1100" cy="150" r="4" fill="#000">
+    <animate attributeName="opacity" values="1;0;1" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>
