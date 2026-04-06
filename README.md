@@ -2,7 +2,7 @@
 
 <!-- TOP HEADER -->
 <p align="center">
-  <img src="header.svg" width="100%" alt="Banner"/>
+  <img src="header.svg?v=2" width="100%" alt="Banner"/>
 </p>
 
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
 </p>
 
 # :milky_way: About Me
@@ -32,7 +32,7 @@
 - :zap: Motto: *"Coding the future, one line at a time."*
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
 </p>
 
 # :hammer_and_wrench: Tech Arsenal
@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
 </p>
 
 # :globe_with_meridians: Tech Stacks 
@@ -55,7 +55,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
 </p>
 
 # :rocket: Activity & Stats Dashboard
@@ -77,7 +77,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
 </p>
 
 # :snake: Contribution Snake
@@ -86,7 +86,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=2" width="100%" alt="Divider"/>
 </p>
 
 # :mailbox_with_mail: Connect with Me
