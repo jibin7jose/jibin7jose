@@ -16,7 +16,9 @@
   <img src="https://img.shields.io/badge/Inspiration-Futurism-ff0?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=0a0f1f" />
 </p>
 
----
+<p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
 
 # :milky_way: About Me
 
@@ -29,7 +31,9 @@
 - :video_game: Exploring **3D Web + Game Development**  
 - :zap: Motto: *"Coding the future, one line at a time."*
 
----
+<p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
 
 # :hammer_and_wrench: Tech Arsenal
 
@@ -37,7 +41,9 @@
   <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,rust,react,nextjs,vite,nodejs,nestjs,postgres,mysql,mongodb,git,prisma,aws,vercel,postman,figma,arduino,unreal,unity,blender,php,laravel,tailwind,npm,tauri&theme=dark" />
 </p>
 
----
+<p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
 
 # :globe_with_meridians: Tech Stacks 
 
@@ -48,7 +54,9 @@
   <img src="https://img.shields.io/badge/Cloud-AWS-ff0?style=for-the-badge&logo=amazon-aws&logoColor=white&color=ff0&labelColor=0a0f1f" />
 </p>
 
----
+<p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
 
 # :rocket: Activity & Stats Dashboard
 
@@ -68,14 +76,18 @@
   <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
 </p>
 
----
+<p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
 
 # :snake: Contribution Snake
 <p align="center">
   <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake" width="80%"/>
 </p>
 
----
+<p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
 
 # :mailbox_with_mail: Connect with Me
 
@@ -92,8 +104,11 @@
 </p>
 
 <p align="center">
+  <img src="premium-divider.svg" width="100%" alt="Divider"/>
+</p>
+
+<p align="center">
   <a href="https://github.com/jibin7jose/jibin7jose">
     <img src="https://img.shields.io/badge/Visit%20Repository-GitHub-blue?style=for-the-badge&logo=github" alt="Repository Link" />
   </a>
 </p>
-

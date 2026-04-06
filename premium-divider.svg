@@ -1,0 +1,30 @@
+<svg width="800" height="40" viewBox="0 0 800 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+    .neon-pulse { stroke: #22D3EE; stroke-width: 0.5; animation: slide 4s linear infinite; }
+  </style>
+
+  <!-- Base Line -->
+  <path d="M0 20H800" stroke="#1E293B" stroke-width="1" stroke-dasharray="2 4" />
+  
+  <!-- Glowing Center -->
+  <path d="M300 20H500" stroke="url(#grad)" stroke-width="2" />
+  
+  <!-- Animated Pulse -->
+  <path d="M0 20H200" class="neon-pulse" />
+  <path d="M600 20H800" class="neon-pulse" style="animation-delay: -2s; animation-direction: reverse;" />
+
+  <!-- Center Decorative Points -->
+  <circle cx="400" cy="20" r="3" fill="#22D3EE" />
+  <circle cx="410" cy="20" r="1.5" fill="#1E293B" />
+  <circle cx="390" cy="20" r="1.5" fill="#1E293B" />
+
+</svg>
