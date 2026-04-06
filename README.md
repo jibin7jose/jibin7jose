@@ -7,39 +7,47 @@
 
 
 <h1 align="center" style="font-family: 'Segoe UI', sans-serif;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Computer+Science+Engineer;Software+Engineer;React+%7C+NestJS+%7C+PostgreSQL;Building+Futuristic+Web+Apps" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&size=32&duration=3000&color=00E5FF&center=true&vCenter=true&width=900&lines=Computer+Science+Engineer;Software+Engineer;React+%7C+NestJS+%7C+PostgreSQL;Rust+%7C+Tauri+%7C+Next.js;Building+Futuristic+Web+Apps" />
 </h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-00E5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1f" />
+  <img src="https://img.shields.io/badge/Focus-Fullstack%20Architecture-f0f?style=for-the-badge&logo=codepen&logoColor=white&labelColor=0a0f1f" />
+  <img src="https://img.shields.io/badge/Inspiration-Futurism-ff0?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=0a0f1f" />
+</p>
+
+---
 
 # :milky_way: About Me
 
 > I am a passionate developer who merges creativity with code — building futuristic, scalable applications with clean UI, solid architecture, and high-performance backend systems.
 
 - :mag_right: Currently developing **React + NestJS + PostgreSQL** applications  
-- :seedling: Exploring **Next.js, AWS, CI/CD pipelines**  
+- :seedling: Exploring **Rust, Tauri, AWS, CI/CD pipelines**  
 - :art: Focused on **modern UI/UX design**  
 - :video_game: Exploring **3D Web + Game Development**  
 - :zap: Motto: *"Coding the future, one line at a time."*
 
-
+---
 
 # :hammer_and_wrench: Tech Arsenal
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,react,androidstudio,nextjs,vite,nodejs,nestjs,postgres,mysql,mongodb,git,prisma,aws,postman,figma,arduino,unreal,unity,blender,php,laravel,tailwind,npm&theme=dark" />
-
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,js,ts,python,rust,react,nextjs,vite,nodejs,nestjs,postgres,mysql,mongodb,git,prisma,aws,postman,figma,arduino,unreal,unity,blender,php,laravel,tailwind,npm,tauri&theme=dark" />
 </p>
 
+---
 
 # :globe_with_meridians: Tech Stacks 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js-0ef?style=for-the-badge&logoColor=white&color=0ef&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Backend-NestJS%20%7C%20Node.js-f0f?style=for-the-badge&logoColor=white&color=f0f&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MySQL%20%7C%20pgAdmin-0ff?style=for-the-badge&logoColor=white&color=0ff&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/Cloud-AWS-ff0?style=for-the-badge&logoColor=white&color=ff0&labelColor=0a0f1f" />
-  <img src="https://img.shields.io/badge/API-Postman-FCA121?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Next.js%20%7C%20Tauri-0ef?style=for-the-badge&logo=react&logoColor=white&color=0ef&labelColor=0a0f1f" />
+  <img src="https://img.shields.io/badge/Backend-NestJS%20%7C%20Node.js%20%7C%20Rust-f0f?style=for-the-badge&logo=nestjs&logoColor=white&color=f0f&labelColor=0a0f1f" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%7C%20MySQL%20%7C%20Redis-0ff?style=for-the-badge&logo=postgresql&logoColor=white&color=0ff&labelColor=0a0f1f" />
+  <img src="https://img.shields.io/badge/Cloud-AWS-ff0?style=for-the-badge&logo=amazon-aws&logoColor=white&color=ff0&labelColor=0a0f1f" />
 </p>
 
+---
 
 # :rocket: Activity & Stats Dashboard
 
@@ -48,33 +56,61 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Universe" />
 </p>
 
-### :fire: Streak & Stats  
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%">
+        <h3 align="center">:fire: Streak & Stats</h3>
+        <p align="center">
+          <img width="100%" src="https://streak-stats.demolab.com?user=jibin7jose&theme=tokyonight&hide_border=true" />
+          <br/>
+          <img width="100%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">:calendar: 3D Contribution Map</h3>
+        <p align="center">
+          <img src="https://github.com/jibin7jose/jibin7jose/raw/output/profile-3d-contrib/profile-south-season.svg" alt="3D Contribution Map" width="100%"/>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### :jigsaw: Languages Overview
 <p align="center">
-  <img width="48%" src="https://streak-stats.demolab.com?user=jibin7jose&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jibin7jose&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-### :calendar: 3D Contribution Map
-<p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/profile-3d-contrib/profile-south-season.svg" alt="3D Contribution Map" />
-</p>
-
-# :jigsaw: Languages Overview
-<p align="center">
-  <img width="48%" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
-</p>
-
-
-
-# :snake: Contribution Snake
-<p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake"/>
+  <img width="60%" src="https://github-readme-stats-git-masterorgs-github-readme-stats-team.vercel.app/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
 </p>
 
 ---
+
+# :snake: Contribution Snake
+<p align="center">
+  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake" width="80%"/>
+</p>
+
+---
+
+# :mailbox_with_mail: Connect with Me
+
+<p align="center">
+  <a href="https://github.com/jibin7jose">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/jibin7jose">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:jibin7jose@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/jibin7jose/jibin7jose">
     <img src="https://img.shields.io/badge/Visit%20Repository-GitHub-blue?style=for-the-badge&logo=github" alt="Repository Link" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Last%20Updated-2026--04--06-blueviolet?style=flat-square" />
 </p>
