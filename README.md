@@ -2,7 +2,7 @@
 
 <!-- TOP HEADER -->
 <p align="center">
-  <img src="header.svg?v=7" width="100%" alt="Banner"/>
+  <img src="header.svg?v=8" width="100%" alt="Banner"/>
 </p>
 
 
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=7" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=8" width="100%" alt="Divider"/>
 </p>
 
 # :milky_way: About Me
@@ -32,7 +32,7 @@
 - :zap: Motto: *"Coding the future, one line at a time."*
 
 <p align="center">
-  <img src="premium-divider.svg?v=7" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=8" width="100%" alt="Divider"/>
 </p>
 
 # :hammer_and_wrench: Tech Arsenal
@@ -42,7 +42,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=7" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=8" width="100%" alt="Divider"/>
 </p>
 
 # :globe_with_meridians: Tech Stacks 
@@ -55,7 +55,7 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=7" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=8" width="100%" alt="Divider"/>
 </p>
 
 # :rocket: Activity & Stats Dashboard
@@ -77,12 +77,12 @@
 </p>
 
 <p align="center">
-  <img src="premium-divider.svg?v=7" width="100%" alt="Divider"/>
+  <img src="premium-divider.svg?v=8" width="100%" alt="Divider"/>
 </p>
 
 <!-- FEATURED PROJECTS SECTION -->
 <p align="center">
-  <img src="projects-header.svg?v=7" width="100%" alt="Featured Projects Header"/>
+  <img src="projects-header.svg?v=8" width="100%" alt="Featured Projects Header"/>
 </p>
 
 <div align="center">
@@ -121,7 +121,7 @@
 
 <!-- CONNECT WITH ME SECTION -->
 <p align="center">
-  <img src="connect-header.svg?v=7" width="100%" alt="Connect Header"/>
+  <img src="connect-header.svg?v=8" width="100%" alt="Connect Header"/>
 </p>
 
 <p align="center">
