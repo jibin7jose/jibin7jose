@@ -78,7 +78,7 @@
 
 ### :jigsaw: Languages Overview
 <p align="center">
-  <img width="60%" src="https://readme-stats-github.pages.dev/api/top-langs?username=jibin7jose&layout=compact&langs_count=10&hide_border=true&theme=radical" alt="Top Languages" />
+  <img width="60%" src="languages-overview.svg?v=1" alt="Top Languages" />
 </p>
 
 <p align="center">
