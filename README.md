@@ -67,7 +67,7 @@
 
 ### :bar_chart: Contribution Graph  
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jibin7jose&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Universe" />
+  <img src="https://ghchart.rshah.org/00E5FF/jibin7jose" alt="jibin7jose GitHub Contribution Graph" />
 </p>
 
 ### :fire: Streak & Stats  
