@@ -78,7 +78,7 @@
 
 ### :jigsaw: Languages Overview
 <p align="center">
-  <img width="60%" src="languages-overview.svg?v=1" alt="Top Languages" />
+  <img width="70%" src="languages-overview.svg?v=2" alt="Top Languages" />
 </p>
 
 <p align="center">

@@ -1,9 +1,19 @@
-<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="720" height="260" viewBox="0 0 720 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Top Languages</title>
   <desc id="desc">Language usage overview for jibin7jose public repositories.</desc>
   <defs>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <linearGradient id="card" x1="0" y1="0" x2="720" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.58" stop-color="#111827"/>
+      <stop offset="1" stop-color="#090E1A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="32" y1="0" x2="688" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#7C7CFF"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -11,45 +21,71 @@
     </filter>
   </defs>
 
-  <rect width="495" height="195" rx="6" fill="#141321"/>
-  <rect x="0.5" y="0.5" width="494" height="194" rx="5.5" stroke="#30363D"/>
+  <rect width="720" height="260" rx="8" fill="url(#card)"/>
+  <rect x="0.5" y="0.5" width="719" height="259" rx="7.5" stroke="#243043"/>
+  <path d="M32 68H688" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="662" cy="34" r="38" fill="#00E5FF" opacity="0.08"/>
+  <circle cx="676" cy="52" r="56" fill="#FF2BD6" opacity="0.06"/>
 
-  <text x="24" y="34" fill="#FF6E96" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Top Languages</text>
-  <text x="24" y="56" fill="#A9B1D6" font-family="Segoe UI, Arial, sans-serif" font-size="11">Aggregated from public source repositories</text>
+  <text x="32" y="38" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Languages Overview</text>
+  <text x="32" y="57" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12">Public source repositories • refreshed from GitHub language data</text>
 
-  <g transform="translate(24 74)" filter="url(#glow)">
-    <rect x="0" y="0" width="291.2" height="12" rx="6" fill="#3178C6"/>
-    <rect x="291.2" y="0" width="47.7" height="12" fill="#DEA584"/>
-    <rect x="338.9" y="0" width="44.4" height="12" fill="#F1E05A"/>
-    <rect x="383.3" y="0" width="36.3" height="12" fill="#563D7C"/>
-    <rect x="419.6" y="0" width="20.8" height="12" fill="#E34C26"/>
-    <rect x="440.4" y="0" width="12.4" height="12" fill="#3572A5"/>
-    <rect x="452.8" y="0" width="19.0" height="12" rx="6" fill="#00ADD8"/>
+  <g transform="translate(32 92)">
+    <rect width="656" height="18" rx="9" fill="#101827"/>
+    <g filter="url(#softGlow)">
+      <rect x="0" y="0" width="404.8" height="18" rx="9" fill="#3178C6"/>
+      <rect x="404.8" y="0" width="66.3" height="18" fill="#DEA584"/>
+      <rect x="471.1" y="0" width="61.7" height="18" fill="#F1E05A"/>
+      <rect x="532.8" y="0" width="50.5" height="18" fill="#563D7C"/>
+      <rect x="583.3" y="0" width="28.9" height="18" fill="#E34C26"/>
+      <rect x="612.2" y="0" width="17.1" height="18" fill="#3572A5"/>
+      <rect x="629.3" y="0" width="26.7" height="18" rx="9" fill="#00ADD8"/>
+    </g>
   </g>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="13">
-    <circle cx="30" cy="111" r="5" fill="#3178C6"/>
-    <text x="43" y="116" fill="#C9D1D9">TypeScript</text>
-    <text x="159" y="116" fill="#A9B1D6">61.7%</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(32 137)">
+      <circle cx="7" cy="7" r="6" fill="#3178C6"/>
+      <text x="22" y="11" fill="#E5E7EB" font-size="14" font-weight="600">TypeScript</text>
+      <text x="134" y="11" fill="#7DD3FC" font-size="13" font-weight="600">61.7%</text>
+      <rect x="0" y="25" width="284" height="7" rx="3.5" fill="#1E293B"/>
+      <rect x="0" y="25" width="175.2" height="7" rx="3.5" fill="#3178C6"/>
+    </g>
 
-    <circle cx="251" cy="111" r="5" fill="#DEA584"/>
-    <text x="264" y="116" fill="#C9D1D9">Rust</text>
-    <text x="430" y="116" fill="#A9B1D6">10.1%</text>
+    <g transform="translate(376 137)">
+      <circle cx="7" cy="7" r="6" fill="#DEA584"/>
+      <text x="22" y="11" fill="#E5E7EB" font-size="14" font-weight="600">Rust</text>
+      <text x="250" y="11" fill="#F7C8A5" font-size="13" font-weight="600" text-anchor="end">10.1%</text>
+      <rect x="0" y="25" width="284" height="7" rx="3.5" fill="#1E293B"/>
+      <rect x="0" y="25" width="28.7" height="7" rx="3.5" fill="#DEA584"/>
+    </g>
 
-    <circle cx="30" cy="135" r="5" fill="#F1E05A"/>
-    <text x="43" y="140" fill="#C9D1D9">JavaScript</text>
-    <text x="159" y="140" fill="#A9B1D6">9.4%</text>
+    <g transform="translate(32 181)">
+      <circle cx="7" cy="7" r="6" fill="#F1E05A"/>
+      <text x="22" y="11" fill="#E5E7EB" font-size="14" font-weight="600">JavaScript</text>
+      <text x="134" y="11" fill="#FFF085" font-size="13" font-weight="600">9.4%</text>
+      <rect x="0" y="25" width="284" height="7" rx="3.5" fill="#1E293B"/>
+      <rect x="0" y="25" width="26.7" height="7" rx="3.5" fill="#F1E05A"/>
+    </g>
 
-    <circle cx="251" cy="135" r="5" fill="#563D7C"/>
-    <text x="264" y="140" fill="#C9D1D9">CSS</text>
-    <text x="430" y="140" fill="#A9B1D6">7.7%</text>
+    <g transform="translate(376 181)">
+      <circle cx="7" cy="7" r="6" fill="#563D7C"/>
+      <text x="22" y="11" fill="#E5E7EB" font-size="14" font-weight="600">CSS</text>
+      <text x="250" y="11" fill="#C4B5FD" font-size="13" font-weight="600" text-anchor="end">7.7%</text>
+      <rect x="0" y="25" width="284" height="7" rx="3.5" fill="#1E293B"/>
+      <rect x="0" y="25" width="21.9" height="7" rx="3.5" fill="#563D7C"/>
+    </g>
 
-    <circle cx="30" cy="159" r="5" fill="#E34C26"/>
-    <text x="43" y="164" fill="#C9D1D9">HTML</text>
-    <text x="159" y="164" fill="#A9B1D6">4.4%</text>
+    <g transform="translate(32 225)">
+      <circle cx="7" cy="7" r="6" fill="#E34C26"/>
+      <text x="22" y="11" fill="#E5E7EB" font-size="14" font-weight="600">HTML</text>
+      <text x="134" y="11" fill="#FF9B78" font-size="13" font-weight="600">4.4%</text>
+    </g>
 
-    <circle cx="251" cy="159" r="5" fill="#3572A5"/>
-    <text x="264" y="164" fill="#C9D1D9">Python</text>
-    <text x="430" y="164" fill="#A9B1D6">2.6%</text>
+    <g transform="translate(376 225)">
+      <circle cx="7" cy="7" r="6" fill="#3572A5"/>
+      <text x="22" y="11" fill="#E5E7EB" font-size="14" font-weight="600">Python</text>
+      <text x="250" y="11" fill="#93C5FD" font-size="13" font-weight="600" text-anchor="end">2.6%</text>
+    </g>
   </g>
 </svg>
