@@ -78,7 +78,7 @@
 
 ### :jigsaw: Languages Overview
 <p align="center">
-  <img width="75%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jibin7jose&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img width="75%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jibin7jose&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
 </p>
 
 <p align="center">
