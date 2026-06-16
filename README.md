@@ -67,7 +67,7 @@
 
 ### :bar_chart: Contribution Graph  
 <p align="center">
-  <img src="https://ghchart.rshah.org/00E5FF/jibin7jose" alt="jibin7jose GitHub Contribution Graph" />
+  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="jibin7jose GitHub Contribution Graph" width="100%" />
 </p>
 
 ### :fire: Streak & Stats  
@@ -115,14 +115,6 @@
   <img src="premium-divider.svg?v=13" width="100%" alt="Divider"/>
 </p>
 
-# :snake: Contribution Snake
-<p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake" width="80%"/>
-</p>
-
-<p align="center">
-  <img src="premium-divider.svg?v=13" width="100%" alt="Divider"/>
-</p>
 
 <!-- CONNECT WITH ME SECTION -->
 <p align="center">
