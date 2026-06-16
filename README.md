@@ -121,7 +121,7 @@
 
 # :snake: Contribution Snake
 <p align="center">
-  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=1" alt="snake" width="80%"/>
+  <img src="https://github.com/jibin7jose/jibin7jose/raw/output/github-contribution-grid-snake.svg?v=2" alt="snake" width="80%"/>
 </p>
 
 <p align="center">
