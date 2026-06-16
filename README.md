@@ -65,9 +65,13 @@
 
 # :rocket: Activity & Stats Dashboard
 
-### :bar_chart: Contribution Graph  
+### :space_invader: Breakout Contribution Game  
 <p align="center">
-  <img src="https://ghchart.rshah.org/00E5FF/jibin7jose" alt="jibin7jose GitHub Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jibin7jose/jibin7jose/raw/github-breakout/images/breakout-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/jibin7jose/jibin7jose/raw/github-breakout/images/breakout-light.svg" />
+    <img alt="Breakout Game Contribution Graph" src="https://github.com/jibin7jose/jibin7jose/raw/github-breakout/images/breakout-light.svg" width="100%" />
+  </picture>
 </p>
 
 ### :fire: Streak & Stats  
